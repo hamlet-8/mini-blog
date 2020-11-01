@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #3B3D3C;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #3B3D3C;
+}
+
+p {
+  color: #3B3D3C;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 16px;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  box-sizing: border-box;
+}
+.header__top-menu ul {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+.header__top-menu li {
+  padding: 0 15px;
+}
+.header__top-menu a {
+  color: #000;
+}
+.header__top-menu a:hover {
+  text-decoration: underline;
+}
+.header__bottom {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.header__bottom ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 1.2rem;
+}
+.header__bottom li {
+  padding: 0 15px;
+}
+.header__bottom li:first-child {
+  margin-left: 10px;
+}
+.header__bottom a {
+  color: #fff;
+}
+.header__bottom a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block {
+  margin-top: 20px;
+  background-color: #E6E6E6;
+  padding: 0 30px 15px 30px;
+}
+.block__content {
+  overflow: hidden;
+}
+.block__content img {
+  width: 100%;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.article__image {
+  min-width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+.article__info {
+  width: 175px;
+  margin-left: 15px;
+}
+.article__info > a {
+  font-size: 1.2rem;
+  color: #000;
+}
+.article__info > a:hover {
+  text-decoration: underline;
+}
+.article__info__meta a {
+  color: #000;
+}
+.article__info__meta a:hover {
+  text-decoration: underline;
+}
+.article__info__preview {
+  padding-top: 10px;
+  font-size: 0.8rem;
+}
+
+.content-left {
+  width: 65%;
+}
+.content-left__title {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 30px 0;
+}
+.content-left__title a {
+  color: #000;
+}
+.content-left__title a:hover {
+  text-decoration: underline;
+}
+.content-left .article {
+  width: 47%;
+}
+
+.content-right {
+  width: 33.5%;
+}
+.content-right__map {
+  box-sizing: border-box;
+  padding: 30px 0;
+}
+.content-right__title {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 30px 0;
+}
+.content-right__title a {
+  color: #000;
+}
+.content-right__title a:hover {
+  text-decoration: underline;
+}
+.content-right__title {
+  padding: 30px 0;
+  box-sizing: border-box;
+}
+
+.full-text > div {
+  margin-top: 30px;
+}
+.full-text > div > * {
+  margin-top: 15px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+}
+.inputs div {
+  width: 32.3%;
+}
+.inputs div input {
+  width: 88.6%;
+  padding: 10px;
+}
+
+.textarea {
+  padding-top: 20px;
+}
+.textarea textarea {
+  min-width: 96.6%;
+  min-width: 96.6%;
+  max-height: 100px;
+  min-height: 100px;
+  padding: 10px;
+}
+
+.submit-block {
+  padding-top: 20px;
+}
+.submit-block input {
+  background-color: #414141;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #E6E6E6;
+  margin-top: 30px;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.footer__menu ul {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+.footer__menu li {
+  padding: 0 15px;
+}
+.footer__menu a {
+  color: #000;
+}
+.footer__menu a:hover {
+  text-decoration: underline;
+}
+
+.paginator {
+  display: flex;
+  justify-content: space-around;
+}
+.paginator a {
+  display: block;
+  border: 1px solid green;
+  color: #fff;
+  background-color: #000;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
